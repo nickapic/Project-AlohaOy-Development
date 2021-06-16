@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-heading {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-family: inherit;
+  font-size: 700;
+  text-transform: uppercase;
+  color: #dbdbdb;
+  text-decoration: none;
+}
+a {
+  text-transform: uppercase;
+  color: #dbdbdb;
+  font-family: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 23%;
+  justify-content: space-between;
+}

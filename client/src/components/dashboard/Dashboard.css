@@ -1,0 +1,47 @@
+.main-button {
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-top: 3rem;
+  padding: 0.75rem 1.25rem;
+  font-family: inherit;
+  font-weight: 700;
+  background-color: #dbdbdb;
+  color: #1d1e20;
+  border: none;
+  text-transform: uppercase;
+}
+
+.primary-text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #dbdbdb;
+}
+.container-dashboard {
+  margin-left: 12rem;
+  margin-top: 2rem;
+}
+.primary-greeting {
+  margin-bottom: 0.5rem;
+}
+.primary-warning {
+  margin-bottom: 1.5rem;
+}
+.dash-links {
+  margin-top: 0rem;
+  display: flex;
+  width: 30rem;
+  justify-content: space-between;
+}
+.table-section {
+  margin-top: 0.5rem;
+  display: flex;
+  width: 30rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.table-button {
+  font-weight: 700;
+  color: #1d1e20;
+  background-color: #dbdbdb;
+  border-style: none;
+}

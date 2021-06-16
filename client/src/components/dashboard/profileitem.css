@@ -1,0 +1,29 @@
+.profile-items {
+  width: 80%;
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #dbdbdb;
+  margin: 1rem 0rem;
+}
+.profile-image {
+  height: 4rem;
+}
+.profile-information {
+  color: #1f1f1f;
+  font-size: 1rem;
+  margin-bottom: 0rem;
+}
+.profile-item {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 6rem;
+}
+.profile-skill-list span {
+  color: #1f1f1f;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}

@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1d1e20;
+  color: #dbdbdb;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  background-color: #e5e5f7;
+  opacity: 0.2;
+  background: repeating-linear-gradient(
+    -45deg,
+    #444cf7,
+    #444cf7 11px,
+    #e5e5f7 11px,
+    #e5e5f7 55px
+  );
+}
+.App {
+  font-family: "Poppins", sans-serif;
+  background-color: #1d1e20;
+}
+
+.h3 {
+  color: #dbdbdb;
+  font-size: 700;
+}
+
+.alert {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  width: 20rem;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  opacity: 0.9;
+  background: rgb(221, 214, 214);
+  color: #333;
+}
+
+.btn-primary,
+.bg-primary,
+.badge-primary,
+.alert-primary {
+  background: #17a2b8;
+  color: #fff;
+}
+
+.btn-light,
+.bg-light,
+.badge-light,
+.alert-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.btn-dark,
+.bg-dark,
+.badge-dark,
+.alert-dark {
+  background: #343a40;
+  color: #fff;
+}
+
+.btn-danger,
+.bg-danger,
+.badge-danger,
+.alert-warning {
+  background: #dc3545;
+  color: #fff;
+}
+.loader {
+  width: 100%;
+  margin-left: 11rem;
+  font-weight: 700;
+}
+.dash-links {
+  margin-top: 2rem;
+}
+.heading-form {
+  color: #dbdbdb;
+}
+
+.profile-page-wrapper {
+  margin: 2rem;
+}
+.education-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.table-section {
+  margin-top: 0.5rem;
+  display: flex;
+  width: 30rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.table-special {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}

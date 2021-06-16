@@ -1,0 +1,36 @@
+.profile-page-wrapper {
+  margin: 2rem 0rem;
+}
+.profile-page-container {
+  margin-left: 12rem;
+}
+.profile-page-information {
+  color: #dbdbdb;
+  text-transform: capitalize;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+  font-size: 1rem;
+}
+.profilepage-image-container {
+  display: flex;
+  flex-direction: row;
+  width: 15rem;
+  height: 5rem;
+  align-items: flex-end;
+  justify-content: space-between;
+  line-height: 1.1;
+}
+.text-box-profilepage {
+  margin-left: 2rem;
+  display: flex;
+  height: 5rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.profile-description {
+  margin-top: 2rem;
+}
+.profile-description-text {
+  font-size: 1.2rem;
+}
